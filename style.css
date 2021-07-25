@@ -1,0 +1,169 @@
+/*Applied to All*/
+*{
+    box-sizing: border-box;
+}
+/*Html tags*/
+body{
+    margin: 0;
+    padding: 0px;
+}
+/*Above toolbar*/
+.toolbar{
+    height: 12vh;
+    background-color: rgb(32, 29,29);
+    display: flex;
+    align-items: center;
+}
+/*Filter Color container*/
+.filter-container{
+    background-color: darkgray;
+    height: 70%;
+    width: 20rem;
+    border-radius: 3px;
+    display: flex;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.filter-color-container{
+    height: 100%;
+    width: 25%;
+    display: flex;
+    background-color: #444;
+    font-size: 1.5rem;
+    justify-content: center;
+    align-items: center;
+}
+.filter-color{
+    height: 35%;
+    width: 35%;
+    border-radius: 2px;
+}
+.pink{
+    background-color: lightpink;
+}
+.blue{
+    background-color: lightblue;
+}
+.green{
+    background-color: lightgreen;
+}
+.black{
+    background-color: black;
+}
+.color-hower{
+    background-color: gray;
+}
+/*Action container*/
+.action-container{
+    height: 70%;
+    background-color: #444;
+    width: 8rem;
+    display: flex;
+    border-radius: 3px;
+}
+.icon-container{
+    height: 100%;
+    width:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon{
+    font-size: 1.5rem;
+    color: white;
+}
+.icon-hower{
+    color: rgb(182,0,0);
+}
+/*Lock Container*/
+.lock-container{
+    height:100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.locked{
+    color: rgb(182,0,0);
+}
+/*Main Container*/
+.main-container{
+    min-height: 88vh;
+    padding-right: 1vw;
+    padding-top: 3rem;
+    padding-left: 3vw;
+    background-color: aliceblue;
+    display: flex;
+    gap:2rem;
+    align-items: baseline;
+    justify-content: space-around;
+}
+/*Modal Container which appear on plus button*/
+.modal-container{
+    width: 31rem;
+    height: 18rem;
+    position: absolute;
+    box-shadow: 0 1rem 5rem rgba(0,0,0,0.637);
+    display: none;
+}
+/*Ticket description on left side*/
+.task-container{
+    background-color: white;
+    height: 100%;
+    width: 75%;
+}
+/*Task box text area*/
+.task-box{
+    height: 100%;
+    width: 100%;
+    resize: none;
+    padding: 2rem;
+}
+/*Color coloumn*/
+.modal-color-container{
+    background-color: #444;
+    height: 100%;
+    width: 25%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+/*Colors of modal*/
+.modal-color{
+    width: 73%;
+    height: 12%;
+    border-radius: 2px;
+}
+/*Ticket container*/
+.ticket-container{
+    height: 10rem;
+    width: 14rem;
+    background-color: white;
+}
+/*color tag above*/
+.ticket-color{
+    height: 7%;
+}
+/*the colors selected on modal*/
+.border{
+    border: 5px darkgrey solid;
+}
+/*Ticket description*/
+.ticket-desc-container{
+    height: 93%;
+    padding: 0.5rem;
+    overflow: auto;
+    word-break: break-all;
+}
+/*Ticket id*/
+.ticket-id{
+    margin-bottom: 11px;
+    font-weight: 800;
+    color: lightslategray;
+}
+/*Ticket data*/
+.ticket-desc{
+    text-align: center;
+    font-size: 1.2rem;
+}

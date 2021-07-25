@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ticket-Manager</title>
+    <!--Links-->
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <!--Toolbar-->
+    <div class="toolbar">
+        <!--filter Container-->
+        <div class="filter-container">
+            <!--filter Color Container-->
+            <div class="filter-color-container">
+                <!--filter-color-->
+                <div class="filter-color pink"></div>
+            </div>
+            <div class="filter-color-container">
+                <div class="filter-color blue"></div>
+            </div>
+            <div class="filter-color-container">
+                <div class="filter-color green">
+
+                </div>
+            </div>
+            <div class="filter-color-container">
+                <div class="filter-color black">
+
+                </div>
+            </div>
+        </div>
+        <!--Action Container-->
+        <div class="action-container">
+            <!--Plus and minus container-->
+            <div class="icon-container plus">
+                <!--Plus and cross icon-->
+                <i class="fas fa-plus icon"></i>
+            </div>
+            <div class="icon-container cross">
+                <i class="fas fa-times icon"></i>
+            </div>
+        </div>
+        <!--lock container-->
+        <div class="lock-container">
+            <!--lock icon-->
+            <i class="fas fa-lock lock icon"></i>
+        </div>
+    </div>
+    <!--Main Container-->
+    <div class="main-container">
+        <!--The modal which appears on the plus button-->
+        <div class="modal-container">
+            <!--Modal container-->
+            <div class="task-container">
+                <!--Text Area Container-->
+                <textarea class="task-box" name="" id="" cols="30" rows="10"></textarea>
+            </div>
+            <!--Color Container for modal-->
+            <div class="modal-color-container">
+                <!--Individual color container-->
+                <div class="modal-color pink"></div>
+                <div class="modal-color blue"></div>
+                <div class="modal-color green"></div>
+                <div class="modal-color black"></div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
