@@ -97,6 +97,7 @@ body{
     gap:2rem;
     align-items: baseline;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 /*Modal Container which appear on plus button*/
 .modal-container{
